@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__penalized.o
+[PROJECT FILES]
+E:\Users\User\Ada\Advanced_Arrays_Ada\advanced_arrays.gpr
+20210721165336 805a273a4f4c97278677823cfd8951cf
+[BOUND OBJECT FILES]
+E:\Users\User\Ada\Advanced_Arrays_Ada\obj\penalized.o
+[GENERATED SOURCE FILES]
+b__penalized.ads
+b__penalized.adb
+b__penalized.ali
+[RESULTING OPTIONS]
+-LE:\Users\User\Ada\Advanced_Arrays_Ada\obj\
+-LE:\Users\User\Ada\Advanced_Arrays_Ada\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
