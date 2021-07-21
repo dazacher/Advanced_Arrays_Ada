@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#4d1f5000#;
+   u00001 : constant Version_32 := 16#ff8ddacc#;
    pragma Export (C, u00001, "penalizedB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -316,10 +316,30 @@ package ada_main is
    pragma Export (C, u00137, "system__concat_2B");
    u00138 : constant Version_32 := 16#2d5a86c4#;
    pragma Export (C, u00138, "system__concat_2S");
-   u00139 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00139, "system__memoryB");
-   u00140 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00140, "system__memoryS");
+   u00139 : constant Version_32 := 16#46899fd1#;
+   pragma Export (C, u00139, "system__concat_7B");
+   u00140 : constant Version_32 := 16#d33d0a0b#;
+   pragma Export (C, u00140, "system__concat_7S");
+   u00141 : constant Version_32 := 16#a83b7c85#;
+   pragma Export (C, u00141, "system__concat_6B");
+   u00142 : constant Version_32 := 16#fd3d7ca6#;
+   pragma Export (C, u00142, "system__concat_6S");
+   u00143 : constant Version_32 := 16#608e2cd1#;
+   pragma Export (C, u00143, "system__concat_5B");
+   u00144 : constant Version_32 := 16#a8a4123a#;
+   pragma Export (C, u00144, "system__concat_5S");
+   u00145 : constant Version_32 := 16#932a4690#;
+   pragma Export (C, u00145, "system__concat_4B");
+   u00146 : constant Version_32 := 16#519e7a34#;
+   pragma Export (C, u00146, "system__concat_4S");
+   u00147 : constant Version_32 := 16#2b70b149#;
+   pragma Export (C, u00147, "system__concat_3B");
+   u00148 : constant Version_32 := 16#248a0db1#;
+   pragma Export (C, u00148, "system__concat_3S");
+   u00149 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00149, "system__memoryB");
+   u00150 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00150, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -365,6 +385,16 @@ package ada_main is
    --  system.wch_cnv%b
    --  system.concat_2%s
    --  system.concat_2%b
+   --  system.concat_3%s
+   --  system.concat_3%b
+   --  system.concat_4%s
+   --  system.concat_4%b
+   --  system.concat_5%s
+   --  system.concat_5%b
+   --  system.concat_6%s
+   --  system.concat_6%b
+   --  system.concat_7%s
+   --  system.concat_7%b
    --  system.traceback%s
    --  system.traceback%b
    --  ada.characters.handling%s
